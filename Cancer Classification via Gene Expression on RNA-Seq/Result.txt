@@ -1,0 +1,27 @@
+Machine Learning for Cancer Prediction
+
+This collection of data is part of the RNA-Seq (HiSeq) PANCAN data set, it is a random extraction of gene expressions of patients having different types of tumor: BRCA, KIRC, COAD, LUAD and PRAD.
+
+BRCA-Breast invasive carcinoma
+
+COAD-Colon adenocarcinoma
+
+KIRC-kidney renal clear cell carcinoma
+
+LUAD-lung adenocarcinoma
+
+PRAD-prostrate adenocarcinoma
+
+Samples (instances) are stored row-wise. Variables (attributes) of each sample are RNA-Seq gene expression levels measured by illumina HiSeq platform.
+
+The data is available here on the link : https://archive.ics.uci.edu/dataset/401/gene+expression+cancer+rna+seq
+
+The Data Tells us the model has 95%+ accuracy on predicting the type of tumor.
+
+The Accuracy of the Algorithms is given below.
+
+1. Random Forest - 92.74%
+2. Logistic Regression - 99.2%
+3. SVC - 99.9%
+4. KNN - 74.5%
+5. Decision Tree - 55.77%
